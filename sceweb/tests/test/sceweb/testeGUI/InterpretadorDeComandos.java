@@ -36,7 +36,7 @@ public class InterpretadorDeComandos {
 	public void fluxo() throws Exception {
 		String acao;
 		
-		for (int i = 1; i < 4; i++) {
+		for (int i = 1; i < 4; i++) { //Ajustar o número de colunas para ser automatico - número de colunas infinitas
 			// linha x coluna
 			 
 			System.out.println("celula = " + ExcelUtils.getCellData(i, 2));
